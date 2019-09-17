@@ -28,3 +28,16 @@ while True :
 			        	sys.stdout.flush()
 			        else :
 			            continue
+				
+		else:
+		     x = ''
+		     message = sys.stdin.readline()
+		     x += message
+		     text ='MSG ' + message
+		     soc.send(text)
+		     sys.stdout.write("You : ")
+		     sys.stdout.write(message)
+		     sys.stdout.flush()
+
+
+s.close()		     	         
