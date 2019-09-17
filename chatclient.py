@@ -23,7 +23,7 @@ while True :
 				print("connection-lost")
 				sys.exit()
 			else:
-			        if message_recieved != 'MSG' +username=' '+x :
+			        if message_recieved != 'MSG ' +username+' '+x :
 			        	sys.stdout.write(message_recieved.strip('MSG '))
 			        	sys.stdout.flush()
 			        else :
