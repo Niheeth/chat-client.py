@@ -4,6 +4,7 @@ if (len(sys.argv) < 3):
 	print("ENTER: python chat-client.py hostname:port username")
 	sys.exit()
 in_list = sys.argv[1].split(':')
+print(in_list)
 HOSTNAME = in_list[0]
 PORTNUMBER = int(in_list[1])
 username = sys.argv[2]
